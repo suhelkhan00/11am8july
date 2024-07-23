@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button{
+            background-color: blueviolet;
+            padding: 10px 20px;
+            font-size: xx-large;
+            font-weight: bolder;
+
+        }
+        button:hover{
+            background-color: aqua;
+            
+        }
+        /* use in a(anchor) tag: link,visited,hover,active */
+        a{
+            background-color: darkcyan;
+            text-decoration: none;
+        }
+        /*use in serial wise */
+        /* unvisited */
+        a:link{
+            color: blueviolet;
+        }
+
+        /* visited */
+        a:visited{
+            color: chartreuse;
+
+        }
+        a:hover{
+            color: bisque;
+        }
+        a:active{
+            color: aqua;
+        }
+
+    </style>
+
+</head>
+<body>
+    <button>pseudo class</button>
+    <button id="b"><a href="google.com"></a>google</button>
+</body>
+</html>

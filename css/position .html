@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            position: static; /*  not change */
+            top: 50px;
+        }
+        h2{
+            position: relative; /* from own relative position change */
+            top: 50px;
+            left: 50px;
+        }
+        #p1{
+            border-style: dashed;
+            position: absolute; /*break normal page flow  and come to parent position */
+            top: 300px;
+        }
+        #p2{
+            border-style: dashed;
+            position: absolute; /*break normal page flow  and come to parent position */
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+        <!-- static,relative,absolute,sticky,fixed -->
+         <h1>position</h1>
+           <h2>relative</h2>
+         <div> 
+            <p id="p1">Lorem ipsum dolor sit amet.</p>
+            <p id="p2">Lorem ipsum dolor sit amet .</p>
+          
+        </div> 
+        
+
+</body>
+</html>

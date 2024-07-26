@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 520px;
+            height: 520px;
+            border: 3px solid burlywood;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+            animation-name: box;
+            animation-duration:  4s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+            animation-timing-function: ease-in-out;
+
+        }
+        #obj{
+            width: 50px;
+            height: 50px;
+            border: 3px solid royalblue;
+            background-color: rgb(80, 207, 216);
+            border-radius: 50%;
+            
+            position: absolute;
+            display: flex;
+            display: flexbox;
+            
+        }
+        @keyframes box {
+            0%{
+                top: 10px;
+                left: 10px;
+            }
+            25%{
+                top: 10px;
+                left: 470px;
+            }
+            50%{
+                 top: 470px;
+                 left: 470px;
+            }
+            75%{
+             left: 10px;
+             top: 470px;
+            }
+            100%{
+                top: 10px;
+                left: 10px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="obj"></div>
+    </div>
+</body>
+</html>

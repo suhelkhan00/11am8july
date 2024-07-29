@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* descendent selecter */
+        /* div > p{
+            color: brown;
+        } */
+
+         /* child selecter */
+         div p{
+            color: coral;
+         }
+
+         /* general sibling selecter */
+         /* div~span{
+            color: aqua;
+         } */
+        /* adjacent sibling selecter */
+        div+span{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, unde.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, unde.</p>
+        <span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa!</p>
+        </span>
+    </div>
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, iste?</span>
+    <span>Lorem, ipsum dolor sit amet  iste?</span>
+</body>
+</html>

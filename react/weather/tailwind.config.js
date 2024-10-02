@@ -6,8 +6,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        "main": "url(./)"
-      },
+        'mainImg': "url(./media/MicrosoftTeams-image.png)",
+        'leftImg': "url('./media/MicrosoftTeams-image (3) (1).png')"
+      }
     },
   },
   plugins: [],
